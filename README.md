@@ -10,3 +10,6 @@ go get -u github.com/peterstrongg/scgen
 Otherwise, [download](https://github.com/peterstrongg/scgen/releases) a release for your platform. To make it easier to execute you can put the binary in your `$PATH`.
 
 ## Usage
+```bash
+scgen <binary_executable>
+```
