@@ -22,7 +22,6 @@ func main() {
 
 	cmd := exec.Command("bash", "-c", command)
 	stdout, err := cmd.Output()
-
 	if err != nil {
 		fmt.Println(err.Error())
 		return
